@@ -2,7 +2,7 @@
 
 **Capstone Project – Summer Analytics 2025**  
 Hosted by Consulting & Analytics Club(IIT Guwahati) × Pathway  
-**Author**: Disha Hapani 
+**Author**: Disha Hapani   
 **Platform**: Google Colab, Python (pandas, numpy, bokeh)
 
 ---
