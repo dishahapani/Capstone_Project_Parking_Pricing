@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d97dff88539f564ad09dc2d9bde1538e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d97dff88539f564ad09dc2d9bde1538e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d97dff88539f564ad09dc2d9bde1538e = L.map(
+                "map_d97dff88539f564ad09dc2d9bde1538e",
+                {
+                    center: [25.706547205000007, 90.75116967714285],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_139458035f38edf9d2bb034034cf1bed = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_139458035f38edf9d2bb034034cf1bed.addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var marker_80b15ba841dff364ab5d2d8c92c84383 = L.marker(
+                [26.14453614, 91.73617216],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_2e2fbc9b11da54cdde737150e154f4c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef44817d722fc8157086a8a7bb033480 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d04af0a227505d7fc1e918f82bed2c4 = $(`<div id="html_7d04af0a227505d7fc1e918f82bed2c4" style="width: 100.0%; height: 100.0%;">Lot: BHMBCCMKT01<br>Queue: 8<br>Price: $8.88</div>`)[0];
+                popup_ef44817d722fc8157086a8a7bb033480.setContent(html_7d04af0a227505d7fc1e918f82bed2c4);
+            
+        
+
+        marker_80b15ba841dff364ab5d2d8c92c84383.bindPopup(popup_ef44817d722fc8157086a8a7bb033480)
+        ;
+
+        
+    
+    
+                marker_80b15ba841dff364ab5d2d8c92c84383.setIcon(icon_2e2fbc9b11da54cdde737150e154f4c6);
+            
+    
+            var marker_122c3a3ca1f1dc9b7caa39f6d4b2fa60 = L.marker(
+                [26.14001386, 91.73099967],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_95ff90dd7ecab204568b9d6a88128eac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8e993730adb4cc792fbb15bcbe13939 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f41cb213aa9f25f911df216fd19845f5 = $(`<div id="html_f41cb213aa9f25f911df216fd19845f5" style="width: 100.0%; height: 100.0%;">Lot: BHMNCPHST01<br>Queue: 12<br>Price: $11.01</div>`)[0];
+                popup_c8e993730adb4cc792fbb15bcbe13939.setContent(html_f41cb213aa9f25f911df216fd19845f5);
+            
+        
+
+        marker_122c3a3ca1f1dc9b7caa39f6d4b2fa60.bindPopup(popup_c8e993730adb4cc792fbb15bcbe13939)
+        ;
+
+        
+    
+    
+                marker_122c3a3ca1f1dc9b7caa39f6d4b2fa60.setIcon(icon_95ff90dd7ecab204568b9d6a88128eac);
+            
+    
+            var marker_ccf9666b780bb1111b0a2b5aa1e71754 = L.marker(
+                [26.14004753, 91.73097233],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_a4ca8c56b2037db05a0c6670486fe90c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e268db932b3eb19a16cf26c58ea0b1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2ee2bca236f81388fef83a95e401409 = $(`<div id="html_b2ee2bca236f81388fef83a95e401409" style="width: 100.0%; height: 100.0%;">Lot: BHMNCPNST01<br>Queue: 10<br>Price: $11.01</div>`)[0];
+                popup_0e268db932b3eb19a16cf26c58ea0b1c.setContent(html_b2ee2bca236f81388fef83a95e401409);
+            
+        
+
+        marker_ccf9666b780bb1111b0a2b5aa1e71754.bindPopup(popup_0e268db932b3eb19a16cf26c58ea0b1c)
+        ;
+
+        
+    
+    
+                marker_ccf9666b780bb1111b0a2b5aa1e71754.setIcon(icon_a4ca8c56b2037db05a0c6670486fe90c);
+            
+    
+            var marker_e4d376cde8edea27ab44a51601380f2c = L.marker(
+                [26.14449459, 91.73620513],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_b0430a295eeb6901ad8826d57aced75d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11386d95e650a581f05c068cac133995 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df0ed95b47b09db823dcd369ab93ee4f = $(`<div id="html_df0ed95b47b09db823dcd369ab93ee4f" style="width: 100.0%; height: 100.0%;">Lot: BHMBCCTHL01<br>Queue: 8<br>Price: $9.27</div>`)[0];
+                popup_11386d95e650a581f05c068cac133995.setContent(html_df0ed95b47b09db823dcd369ab93ee4f);
+            
+        
+
+        marker_e4d376cde8edea27ab44a51601380f2c.bindPopup(popup_11386d95e650a581f05c068cac133995)
+        ;
+
+        
+    
+    
+                marker_e4d376cde8edea27ab44a51601380f2c.setIcon(icon_b0430a295eeb6901ad8826d57aced75d);
+            
+    
+            var marker_b1e2eaf4b8bead52c9d5737f0c6e3a27 = L.marker(
+                [26.14754061, 91.72797041],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_12540ddb7fbd36db38cbddd6dc401412 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f0e7ad282f81498fdde751a9b73fecb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be1fbad8c8d21b5170e72450db7ba11c = $(`<div id="html_be1fbad8c8d21b5170e72450db7ba11c" style="width: 100.0%; height: 100.0%;">Lot: Others-CCCPS119a<br>Queue: 9<br>Price: $8.79</div>`)[0];
+                popup_0f0e7ad282f81498fdde751a9b73fecb.setContent(html_be1fbad8c8d21b5170e72450db7ba11c);
+            
+        
+
+        marker_b1e2eaf4b8bead52c9d5737f0c6e3a27.bindPopup(popup_0f0e7ad282f81498fdde751a9b73fecb)
+        ;
+
+        
+    
+    
+                marker_b1e2eaf4b8bead52c9d5737f0c6e3a27.setIcon(icon_12540ddb7fbd36db38cbddd6dc401412);
+            
+    
+            var marker_57f09bc6dae121756d7387e9460cf352 = L.marker(
+                [26.14749053, 91.72799688],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_1560c85f495d452e7c74e45c47a3e615 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da00352b9a0b92d7f9b1907e1df9dcb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f68e3bb0ad6ea4ede7536c5536d3cdff = $(`<div id="html_f68e3bb0ad6ea4ede7536c5536d3cdff" style="width: 100.0%; height: 100.0%;">Lot: Others-CCCPS202<br>Queue: 9<br>Price: $8.78</div>`)[0];
+                popup_da00352b9a0b92d7f9b1907e1df9dcb6.setContent(html_f68e3bb0ad6ea4ede7536c5536d3cdff);
+            
+        
+
+        marker_57f09bc6dae121756d7387e9460cf352.bindPopup(popup_da00352b9a0b92d7f9b1907e1df9dcb6)
+        ;
+
+        
+    
+    
+                marker_57f09bc6dae121756d7387e9460cf352.setIcon(icon_1560c85f495d452e7c74e45c47a3e615);
+            
+    
+            var marker_c5172b723655ea9f1da2f0389d1d8c89 = L.marker(
+                [26.14754886, 91.72799519],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_d8cde24500377aeeb01503d86327daeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95afb1aa7c6fb6ffb03d41593bf435e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c2075c8e3ffc6647a29df06d9130882 = $(`<div id="html_0c2075c8e3ffc6647a29df06d9130882" style="width: 100.0%; height: 100.0%;">Lot: Others-CCCPS8<br>Queue: 8<br>Price: $8.62</div>`)[0];
+                popup_95afb1aa7c6fb6ffb03d41593bf435e8.setContent(html_0c2075c8e3ffc6647a29df06d9130882);
+            
+        
+
+        marker_c5172b723655ea9f1da2f0389d1d8c89.bindPopup(popup_95afb1aa7c6fb6ffb03d41593bf435e8)
+        ;
+
+        
+    
+    
+                marker_c5172b723655ea9f1da2f0389d1d8c89.setIcon(icon_d8cde24500377aeeb01503d86327daeb);
+            
+    
+            var marker_e0e45b37186d38cdc894b9ecbbe059c1 = L.marker(
+                [26.14747299, 91.72804914],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_f36ea86e06fc53b3cbace9f7c5b766fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d59c5b3c4176b33b79524cbc58060d2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5e6b1073304e81e7a69d237d16f427e = $(`<div id="html_d5e6b1073304e81e7a69d237d16f427e" style="width: 100.0%; height: 100.0%;">Lot: Others-CCCPS105a<br>Queue: 7<br>Price: $9.05</div>`)[0];
+                popup_d59c5b3c4176b33b79524cbc58060d2e.setContent(html_d5e6b1073304e81e7a69d237d16f427e);
+            
+        
+
+        marker_e0e45b37186d38cdc894b9ecbbe059c1.bindPopup(popup_d59c5b3c4176b33b79524cbc58060d2e)
+        ;
+
+        
+    
+    
+                marker_e0e45b37186d38cdc894b9ecbbe059c1.setIcon(icon_f36ea86e06fc53b3cbace9f7c5b766fb);
+            
+    
+            var marker_5033604bc3dce0b00ba52bb719973bcb = L.marker(
+                [26.14749943, 91.72800489],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_7e35adb9366e5ba663be5f4d8fe9daec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e672f208201b4509dcbf8618647a6200 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6a10a574683460c2c06d896373fe3a4 = $(`<div id="html_e6a10a574683460c2c06d896373fe3a4" style="width: 100.0%; height: 100.0%;">Lot: Others-CCCPS135a<br>Queue: 4<br>Price: $9.02</div>`)[0];
+                popup_e672f208201b4509dcbf8618647a6200.setContent(html_e6a10a574683460c2c06d896373fe3a4);
+            
+        
+
+        marker_5033604bc3dce0b00ba52bb719973bcb.bindPopup(popup_e672f208201b4509dcbf8618647a6200)
+        ;
+
+        
+    
+    
+                marker_5033604bc3dce0b00ba52bb719973bcb.setIcon(icon_7e35adb9366e5ba663be5f4d8fe9daec);
+            
+    
+            var marker_0af50c72e5d6924abb9b4164b95aa0aa = L.marker(
+                [26.14749998, 91.72797778],
+                {
+}
+            ).addTo(map_d97dff88539f564ad09dc2d9bde1538e);
+        
+    
+            var icon_6b15015718d0f31a9e58febece3cdc80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3c9f440511a510afa2d25ae2d1cee3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fabe36ebd88965e486fef6a655753282 = $(`<div id="html_fabe36ebd88965e486fef6a655753282" style="width: 100.0%; height: 100.0%;">Lot: Others-CCCPS98<br>Queue: 4<br>Price: $9.20</div>`)[0];
+                popup_e3c9f440511a510afa2d25ae2d1cee3f.setContent(html_fabe36ebd88965e486fef6a655753282);
+            
+        
+
+        marker_0af50c72e5d6924abb9b4164b95aa0aa.bindPopup(popup_e3c9f440511a510afa2d25ae2d1cee3f)
+        ;
+
+        
+    
+    
+                marker_0af50c72e5d6924abb9b4164b95aa0aa.setIcon(icon_6b15015718d0f31a9e58febece3cdc80);
+            
+</script>
+</html>
