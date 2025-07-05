@@ -73,6 +73,9 @@ Optional Pathway implementation is possible via `@pw.udf` hooks.
 - **Model 2 vs Model 3 subplots** to compare pricing strategies
 - **Folium map** for visualizing reroute recommendations
 - **CSV output** for archival and analysis
+###  Reroute Visualization (Preview)
+
+![Reroute Map](reroute_map_preview.png)
 
 ---
 ## Conclusion
